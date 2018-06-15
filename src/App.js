@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         return (
             <div>
-        <ComponentA />,
+        <ComponentA />
         <ComponentB />
             </div>
         )

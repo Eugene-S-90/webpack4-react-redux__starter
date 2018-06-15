@@ -5,9 +5,9 @@ import { test } from '../actions/action_test'
 
 const componentA = (props) => {
     return (
-        <div>
-            HELLO FROM A
-            <button onClick={props.test}>{props.yourtest}</button>
+        <div className="text-to-center">
+            HELLO FROM component A
+            <button className="test-btn" onClick={props.test}>{props.yourtest}</button>
         </div>
     );
 };

@@ -17,6 +17,7 @@ const store = createStore(
   {},
   composeWithDevTools(applyMiddleware(...middleWare)),
 )
+
 ReactDom.render(
     <Provider store = {store}><App /></Provider>,
     document.getElementById('app')
